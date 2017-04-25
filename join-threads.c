@@ -22,8 +22,8 @@ void *threadBeautiful(void *arg){
     pthread_exit(NULL);
 }
 /***
-  ** Thread Join is useful to make a thread wait for another thread finished to continue or start your execution.
-  ** So you see, that our code below, works as sequence normal code.
+  ** Thread Join is useful to make a thread wait for another thread to finish to continue or start your execution.
+  ** So you see, that our code below, works as a normal sequential code.
 ***/
 int main (int argc, char *argv[]){
     pthread_t thread[THREADS_COUNT];
